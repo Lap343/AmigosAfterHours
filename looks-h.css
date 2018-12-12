@@ -135,3 +135,54 @@ hr {
     width: 100px;
     margin: 10px 0px 5px 10px;
 }
+
+/* links page stying */
+
+.map {
+    margin-left: 14%;
+}
+
+.column-section {
+    margin: 10px 0px 10px 0px;
+}
+
+.columns {
+    float: left;
+    width: 32%;
+    height: 200px;
+    text-align: center;
+    border: 3px solid black;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.c-luis, .c-davin, .c-marcos {
+    margin-top: 55px;
+    background-color: black;
+    color: white;
+    display: inline-block;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.c-luis {
+
+}
+
+.c-luis:hover{
+    color: rgba(66, 66, 66, 0);
+    background-color: rgba(66, 66, 66, 0);
+}
+
+.c-davin {
+
+}
+
+.c-marcos {
+
+}
+
+.bottom-about-hr {
+    position: relative;
+    top: 10px;
+}
