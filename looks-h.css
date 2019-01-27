@@ -98,6 +98,7 @@ hr {
 
 .footer {
     width: 100%;
+    margin-bottom: 40px;
 }
 
 .social-icons {
@@ -110,7 +111,7 @@ hr {
     display: block;
     border-radius: 50%;
     border-style: solid;
-    border-color: rgba(182, 220, 236);
+    border-color: rgba(0, 0, 0, 0);
 }
 
 .copyright {
@@ -118,8 +119,7 @@ hr {
     margin-right: 20px;
 }
 
-.twitter,.instagram,.soundcloud{
-    border: 0px solid rgba(182, 220, 236);
+.twitter,.instagram,.youtube{
     border-radius: 50%;
     height: 35px;
     width: 35px;
@@ -150,6 +150,32 @@ hr {
 
 .map {
     margin-left: 14%;
+}
+
+.pc-social-title {
+    margin-left: 100px;
+}
+
+.pc-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.p-insta {
+    font-size: 35px;
+    border-bottom: 1px solid hsla(0, 0%, 0%, 0.5);
+}
+
+.p-twit {
+    font-size: 35px;
+    border-bottom: 1px solid hsla(0, 0%, 0%, 0.5);
+}
+
+.p-yt {
+    font-size: 35px;
+    border-bottom: 1px solid hsla(0, 0%, 0%, 0.5);
 }
 
 .column-section {
