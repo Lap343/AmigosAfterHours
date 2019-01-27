@@ -56,10 +56,6 @@ hr {
     margin-left: 10%;
 }
 
-.sound-c {
-    margin: auto;
-    width: 75%;
-}
 
 .podcasts {
     border: 2px solid #ada2a2;
@@ -68,6 +64,8 @@ hr {
 .yt-frame {
     display: flex;
     justify-content: center;
+    margin: auto;
+    width: 75%;
   }
 
 .you-t {
